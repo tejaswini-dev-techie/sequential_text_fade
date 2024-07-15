@@ -40,7 +40,7 @@ Add the following to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  sequential_text_fade: ^0.0.2
+  sequential_text_fade: ^0.0.3
 ```
 
 ## Usage
