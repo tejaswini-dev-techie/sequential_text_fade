@@ -14,23 +14,48 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: SequentialTextFade(
-            sequentialTextsList: [
-              'JOIN THE FUN',
-              'STAY TUNED',
-              'GET READY',
-              'DISCOVER MORE',
-              'BE PART OF IT',
-              'JUST IN',
+          child: Column(
+            children: [
+              SequentialTextFade(
+                sequentialTextsList: [
+                  'JOIN THE FUN',
+                  'STAY TUNED',
+                  'GET READY',
+                  'DISCOVER MORE',
+                  'BE PART OF IT',
+                  'JUST IN',
+                ],
+                duration: Duration(seconds: 3),
+                delay: Duration(seconds: 3),
+                textAlignment: Alignment.centerLeft,
+                textStyle: TextStyle(
+                  fontSize: 24.0,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.blue,
+                ),
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              SequentialRotatingTextFade(
+                sequentialTextsList: [
+                  'JOIN THE FUN',
+                  'STAY TUNED',
+                  'GET READY',
+                  'DISCOVER MORE',
+                  'BE PART OF IT',
+                  'JUST IN',
+                ],
+                duration: Duration(seconds: 3),
+                delay: Duration(seconds: 3),
+                textAlignment: Alignment.centerLeft,
+                textStyle: TextStyle(
+                  fontSize: 24.0,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.blue,
+                ),
+              ),
             ],
-            duration: Duration(seconds: 3),
-            delay: Duration(seconds: 3),
-            textAlignment: Alignment.centerLeft,
-            textStyle: TextStyle(
-              fontSize: 24.0,
-              fontWeight: FontWeight.w600,
-              color: Colors.blue,
-            ),
           ),
         ),
       ),

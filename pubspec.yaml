@@ -1,6 +1,6 @@
 name: sequential_text_fade
 description: "A Flutter package that displays a sequence of texts fading in and out, using a SequentialTextFade widget for the animation."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/tejaswini-dev-techie/sequential_text_fade
 
 environment:
