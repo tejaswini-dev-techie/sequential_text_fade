@@ -15,7 +15,7 @@ and the Flutter guide for
 
 A Flutter package for displaying a series of text messages with smooth fading animations. Perfect for announcements, updates, and highlighting important information, it ensures an engaging and dynamic user experience.
 
-https://github.com/user-attachments/assets/b6285d4e-1020-4f7c-a009-d5a15a39909a
+https://github.com/user-attachments/assets/55838be1-21a4-425d-8500-5b98f1a1b189
 
 ## Features
 
