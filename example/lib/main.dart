@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
             delay: Duration(seconds: 3),
             textAlignment: Alignment.centerLeft,
             textStyle: TextStyle(
-              fontSize: 30.0,
+              fontSize: 24.0,
               fontWeight: FontWeight.w600,
               color: Colors.blue,
             ),
