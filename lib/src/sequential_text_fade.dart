@@ -55,14 +55,14 @@ class SequentialTextFadeState extends State<SequentialTextFade> {
           curve: Curves.easeInOut,
           child: Text(
             widget.sequentialTextsList[index],
-            style: widget.textStyle ?? const TextStyle(
-              fontSize: 24.0,
-              fontWeight: FontWeight.bold,
-            ),
+            style: widget.textStyle ??
+                const TextStyle(
+                  fontSize: 24.0,
+                  fontWeight: FontWeight.bold,
+                ),
           ),
         ),
       ),
     );
   }
 }
-
