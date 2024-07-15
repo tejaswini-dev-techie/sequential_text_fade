@@ -19,13 +19,13 @@ A Flutter package for displaying a series of text messages with smooth fading an
 
 - The `SequentialTextFade` widget displays a list of texts that sequentially fade in and out.
 
-![Sequential Text Fade](https://github.com/user-attachments/assets/c6e80c5d-e505-4a4d-8d78-ce11f311d456)
+<img src="https://github.com/user-attachments/assets/c6e80c5d-e505-4a4d-8d78-ce11f311d456" height="250" width="450" />
 
 ## Sequential Rotating Text Fade 
 
 - The `SequentialRotatingTextFade` widget continuously cycles through the list of texts, fading each in and out in a repeating loop.
 
-![SequentialRotatingTextFade](https://github.com/user-attachments/assets/9d0a895c-701f-4a1d-843a-2a64fe8470eb)
+<img src="https://github.com/user-attachments/assets/9d0a895c-701f-4a1d-843a-2a64fe8470eb" height="250" width="450" />
 
 ## Features
 
